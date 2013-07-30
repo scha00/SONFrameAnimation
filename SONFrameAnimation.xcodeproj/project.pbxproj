@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11ED497117A74D3A00012E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ED497017A74D3A00012E8E /* UIKit.framework */; };
+		11ED497317A74D3A00012E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ED497217A74D3A00012E8E /* Foundation.framework */; };
+		11ED497517A74D3A00012E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ED497417A74D3A00012E8E /* CoreGraphics.framework */; };
+		11ED497B17A74D3A00012E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11ED497917A74D3A00012E8E /* InfoPlist.strings */; };
+		11ED497D17A74D3A00012E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED497C17A74D3A00012E8E /* main.m */; };
+		11ED498117A74D3A00012E8E /* SONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED498017A74D3A00012E8E /* SONAppDelegate.m */; };
+		11ED498317A74D3A00012E8E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11ED498217A74D3A00012E8E /* Default.png */; };
+		11ED498517A74D3A00012E8E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11ED498417A74D3A00012E8E /* Default@2x.png */; };
+		11ED498717A74D3A00012E8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11ED498617A74D3A00012E8E /* Default-568h@2x.png */; };
+		11ED498A17A74D3A00012E8E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11ED498817A74D3A00012E8E /* MainStoryboard.storyboard */; };
+		11ED498D17A74D3A00012E8E /* SONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED498C17A74D3A00012E8E /* SONViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11ED496D17A74D3A00012E8E /* SONFrameAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SONFrameAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11ED497017A74D3A00012E8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11ED497217A74D3A00012E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11ED497417A74D3A00012E8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11ED497817A74D3A00012E8E /* SONFrameAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SONFrameAnimation-Info.plist"; sourceTree = "<group>"; };
+		11ED497A17A74D3A00012E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11ED497C17A74D3A00012E8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11ED497E17A74D3A00012E8E /* SONFrameAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SONFrameAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		11ED497F17A74D3A00012E8E /* SONAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SONAppDelegate.h; sourceTree = "<group>"; };
+		11ED498017A74D3A00012E8E /* SONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SONAppDelegate.m; sourceTree = "<group>"; };
+		11ED498217A74D3A00012E8E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		11ED498417A74D3A00012E8E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		11ED498617A74D3A00012E8E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		11ED498917A74D3A00012E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		11ED498B17A74D3A00012E8E /* SONViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SONViewController.h; sourceTree = "<group>"; };
+		11ED498C17A74D3A00012E8E /* SONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SONViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11ED496A17A74D3A00012E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ED497117A74D3A00012E8E /* UIKit.framework in Frameworks */,
+				11ED497317A74D3A00012E8E /* Foundation.framework in Frameworks */,
+				11ED497517A74D3A00012E8E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11ED496417A74D3A00012E8E = {
+			isa = PBXGroup;
+			children = (
+				11ED497617A74D3A00012E8E /* SONFrameAnimation */,
+				11ED496F17A74D3A00012E8E /* Frameworks */,
+				11ED496E17A74D3A00012E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11ED496E17A74D3A00012E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11ED496D17A74D3A00012E8E /* SONFrameAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11ED496F17A74D3A00012E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11ED497017A74D3A00012E8E /* UIKit.framework */,
+				11ED497217A74D3A00012E8E /* Foundation.framework */,
+				11ED497417A74D3A00012E8E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11ED497617A74D3A00012E8E /* SONFrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				11ED497F17A74D3A00012E8E /* SONAppDelegate.h */,
+				11ED498017A74D3A00012E8E /* SONAppDelegate.m */,
+				11ED498817A74D3A00012E8E /* MainStoryboard.storyboard */,
+				11ED498B17A74D3A00012E8E /* SONViewController.h */,
+				11ED498C17A74D3A00012E8E /* SONViewController.m */,
+				11ED497717A74D3A00012E8E /* Supporting Files */,
+			);
+			path = SONFrameAnimation;
+			sourceTree = "<group>";
+		};
+		11ED497717A74D3A00012E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11ED497817A74D3A00012E8E /* SONFrameAnimation-Info.plist */,
+				11ED497917A74D3A00012E8E /* InfoPlist.strings */,
+				11ED497C17A74D3A00012E8E /* main.m */,
+				11ED497E17A74D3A00012E8E /* SONFrameAnimation-Prefix.pch */,
+				11ED498217A74D3A00012E8E /* Default.png */,
+				11ED498417A74D3A00012E8E /* Default@2x.png */,
+				11ED498617A74D3A00012E8E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11ED496C17A74D3A00012E8E /* SONFrameAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11ED499017A74D3A00012E8E /* Build configuration list for PBXNativeTarget "SONFrameAnimation" */;
+			buildPhases = (
+				11ED496917A74D3A00012E8E /* Sources */,
+				11ED496A17A74D3A00012E8E /* Frameworks */,
+				11ED496B17A74D3A00012E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SONFrameAnimation;
+			productName = SONFrameAnimation;
+			productReference = 11ED496D17A74D3A00012E8E /* SONFrameAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11ED496517A74D3A00012E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SON;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Soncode;
+			};
+			buildConfigurationList = 11ED496817A74D3A00012E8E /* Build configuration list for PBXProject "SONFrameAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11ED496417A74D3A00012E8E;
+			productRefGroup = 11ED496E17A74D3A00012E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11ED496C17A74D3A00012E8E /* SONFrameAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11ED496B17A74D3A00012E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ED497B17A74D3A00012E8E /* InfoPlist.strings in Resources */,
+				11ED498317A74D3A00012E8E /* Default.png in Resources */,
+				11ED498517A74D3A00012E8E /* Default@2x.png in Resources */,
+				11ED498717A74D3A00012E8E /* Default-568h@2x.png in Resources */,
+				11ED498A17A74D3A00012E8E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11ED496917A74D3A00012E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ED497D17A74D3A00012E8E /* main.m in Sources */,
+				11ED498117A74D3A00012E8E /* SONAppDelegate.m in Sources */,
+				11ED498D17A74D3A00012E8E /* SONViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11ED497917A74D3A00012E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11ED497A17A74D3A00012E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11ED498817A74D3A00012E8E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11ED498917A74D3A00012E8E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11ED498E17A74D3A00012E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11ED498F17A74D3A00012E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11ED499117A74D3A00012E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SONFrameAnimation/SONFrameAnimation-Prefix.pch";
+				INFOPLIST_FILE = "SONFrameAnimation/SONFrameAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11ED499217A74D3A00012E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SONFrameAnimation/SONFrameAnimation-Prefix.pch";
+				INFOPLIST_FILE = "SONFrameAnimation/SONFrameAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11ED496817A74D3A00012E8E /* Build configuration list for PBXProject "SONFrameAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11ED498E17A74D3A00012E8E /* Debug */,
+				11ED498F17A74D3A00012E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11ED499017A74D3A00012E8E /* Build configuration list for PBXNativeTarget "SONFrameAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11ED499117A74D3A00012E8E /* Debug */,
+				11ED499217A74D3A00012E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11ED496517A74D3A00012E8E /* Project object */;
+}
