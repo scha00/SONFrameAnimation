@@ -42,7 +42,7 @@ Setting
 Etc
 ----------------
 
-As this build is experimental, it may not always work as intended.
+As this build is experimental, it may not always work as intended.  
 For `SONFrameAnimationGroup` class, rewind animation will not exactly trace back your animation but will restore to the initial state.  
 
     
